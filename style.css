@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f9f5f5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.search{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    padding: 22px;
+}
+.search h1{
+    font-size: 44px;
+    margin-top: 8px;
+}
+.search input{
+    width: 600px;
+    height: 40px;
+    padding: 11px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 23px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head h3{
+    margin-inline: 87px;
+    font-size: 22px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 700px;
+    margin-left: 325px;
+    padding: 7px;
+}
+table tr td{
+    width: 222px;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1000px) {
+    table{
+        margin-left: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    table{
+        margin-left: 3px;
+    }
+    table tr td{
+        width: 200px;
+        font-size: 22px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 800px) {
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width: 300px;
+        height: 40px;
+        padding: 11px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        font-size: 23px;
+    }
+    table{
+        width: 442px;
+        margin-left: 4px;
+    }
+    table tr td{
+        width: 150px;
+        font-size: 22px;
+    }
+    .head h3{
+        margin-inline: 10px;
+        font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    table{
+        width: 760px;
+        margin-left: 4px;
+    }
+    table tr td{
+        width: 200px;
+        font-size: 22px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 450px) {
+    table{
+        width: 450px;
+        margin-left: 4px;
+    }
+    table tr td{
+        width: 200px;
+        font-size: 22px;
+    }
+    
+  }
